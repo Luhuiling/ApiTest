@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_dep",
+      "children" : [ {
+        "name" : "TestCretaeDep",
+        "children" : [ {
+          "name" : "部门添加正确-只有必填项",
+          "uid" : "49beec964850e747",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504099162,
+            "stop" : 1624504100083,
+            "duration" : 921
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'部门添加正确-只有必填项'", "{'name': 'python教学部', 'parentid': 1}" ]
+        }, {
+          "name" : "部门添加正确",
+          "uid" : "1b07b80162ad42c3",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504100087,
+            "stop" : 1624504101311,
+            "duration" : 1224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'部门添加正确'", "{'name': '教学部', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 3}" ]
+        }, {
+          "name" : "部门名称重复",
+          "uid" : "b7bbc03df5679da7",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504101315,
+            "stop" : 1624504102540,
+            "duration" : 1225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "60008", "'部门名称重复'", "{'name': '教学部', 'name_en': 'RDGZ1', 'parentid': 1, 'order': 1, 'id': 4}" ]
+        }, {
+          "name" : "部门英文名称重复",
+          "uid" : "93e7e5a3e53ac540",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504102543,
+            "stop" : 1624504103461,
+            "duration" : 918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "60008", "'部门英文名称重复'", "{'name': '教学部1', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 5}" ]
+        }, {
+          "name" : "父级部门不存在",
+          "uid" : "7c72abffedd09442",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504103465,
+            "stop" : 1624504104075,
+            "duration" : 610
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "60004", "'父级部门不存在'", "{'name': '教学部2', 'name_en': 'RDGZ2', 'parentid': 1000, 'order': 1, 'id': 6}" ]
+        }, {
+          "name" : "部门id重复",
+          "uid" : "be7af80ff80c9400",
+          "parentUid" : "669775b8c912d6b99e779216f6c718cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624504104079,
+            "stop" : 1624504104997,
+            "duration" : 918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "60008", "'部门id重复'", "{'name': '教学部3', 'name_en': 'RDGZ3', 'parentid': 1, 'order': 1, 'id': 2}" ]
+        } ],
+        "uid" : "669775b8c912d6b99e779216f6c718cb"
+      } ],
+      "uid" : "5f54a0aed0876ea6800939f6f60c476b"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}
